@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    
+    <title>Jerônimo Júnior | Advogado</title>
+</head>
+<body>
+    <header class="header-container">
+        <img src="./assets/logo.png" alt="Logo" />
+        <div>
+            <ul class="header-list" id="myLinks">
+                <a href="#sobre">
+                    <li>Sobre</li>
+                </a>
+                <a href="#areas">
+                    <li>Áreas de atuação</li>
+                </a>
+                <a href="#fale">
+                    <li>Fale Conosco</li>
+                </a>
+                <a href="#sociais">
+                    <li>Redes sociais</li>
+                </a>
+                
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div></div>
+        <div>
+            <h1 class="main-title">Excelência em advogacia <br /> transformando problemas <br /> em soluções.</h1>
+        </div>
+    </main>
+
+    <section class="sobre-container">
+        <h1 id="sobre" class="title">Sobre</h1>
+        <div>
+            <div>
+              <h3>
+              Jerônimo de Castro Lima Júnior.
+              <br /><br />Advogado | OAB/BA 63.046
+              <br /><br />Direito eleitoral <br /> Direito Civil <br /> 
+                          Direito previdenciário <br /> Direito trabalhista
+              </h3>
+            </div>
+            <div>
+              <img src="./assets/sobre.png" alt="Jerônimo Júnior" />
+            </div>
+          </div>
+    </section>
+
+    <section class="areas-container">
+        
+        <h1 id="areas" class="title">Áreas de atuação</h1>
+        
+        <div class="cards-container">
+          <div class="card">
+            <span>
+                <i class="fas fa-balance-scale-left fa-3x"></i>
+            </span>
+            <div>
+              <h4>DIREITO ELEITORAL</h4>
+              <p>Especializado em direito eleitoral. Oferecemos soluções jurídicas 
+                  embasadas na visão de mercado e aspectos práticos do mundo corporativo.
+              </p>
+            </div>
+          </div>          
+
+          <div class="card">
+            <span>
+                <i class="fas fa-balance-scale-left fa-3x"></i>
+            </span>
+            <div>
+              <h4>DIREITO CIVIL</h4>
+              <p>Enfrentar problemas jurídicos envolvendo relações de consumo exige conhecimento 
+                especializado na avaliação de políticas comerciais, publicidade e relações contratuais.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <span>
+                <i class="fas fa-balance-scale-left fa-3x"></i>
+            </span>
+            <div>
+              <h4>DIREITO PREVIDENCIÁRIO</h4>
+              <p>Tem como principal objetivo garantir os direitos fundamentais dos cidadãos em relação 
+                à assistência social e à previdência social que estão relacionados à idade, morte e doença.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <span>
+                <i class="fas fa-balance-scale-left fa-3x"></i>
+            </span>
+            <div>
+              <h4>DIREITO TRABALHISTA</h4>
+              <p>A atuação abrange os mais diversos campos das relações trabalhistas, seja na área 
+                trabalhista preventiva, consultiva, contenciosa em todas as instâncias judiciais e
+                na área administrativa. Atua em defesa dos trabalhadores e das empresas.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+    </section>
+
+    <section class="fale-container" >
+        <h1 id="fale" class="title">Fale Conosco</h1>
+        <div>
+            <div>
+                <form
+                    action="https://formspree.io/f/mdoydadw"
+                    method="POST"
+                >
+                    <label> Nome </label>
+                    <input type="text" name="Nome">
+
+                    <label> Email </label>
+                    <input type="email" name="_replyto">
+                    
+                    <label> Assunto </label>
+                    <input type="text" name="Assunto">
+                    
+                    <label> Mensagem </label>
+                    <textarea name="Mensagem"></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="fale-info">
+                <span> 
+                    <i class="fas fa-map-marked-alt fa-lg"></i> 
+                    <p> Rua: Nome da rua, 999 </p>
+                </span>
+                <span> 
+                    <i class="fas fa-phone-alt fa-lg"></i> 
+                    <p> (77) 99187-9364 </p>
+                </span>
+                <span> 
+                    <i class="fas fa-envelope fa-lg"></i>
+                    <p> jeronimocastro@gmail.com </p>
+                </span>
+            </div>
+        </div>
+      </section>
+
+      <section class="sociais-container">
+        <h1 id="sociais" class="title">Redes Sociais</h1>
+          <div>
+            <a href="https://www.instagram.com/jeronimojunior_adv" target="_blank">
+                <i class="fab fa-instagram fa-3x"></i>
+            </a>
+            <a href="https://pt-br.facebook.com/junior.lima.522" target="_blank">
+                <i class="fab fa-facebook-square fa-3x"></i>
+            </a>
+          </div>
+      </section>
+
+      <footer>
+          <p>Copyright © 2021 Jerônimo de Castro Lima Júnior | Criado por Denilson Melo</p>
+      </footer>
+
+</body>
+</html>
